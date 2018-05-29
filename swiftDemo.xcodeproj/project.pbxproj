@@ -18,6 +18,8 @@
 		C7D67C9420BD904200195729 /* DEMO3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9320BD904200195729 /* DEMO3ViewController.swift */; };
 		C7D67C9620BD905200195729 /* DEMO4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9520BD905200195729 /* DEMO4ViewController.swift */; };
 		C7D67C9820BD906800195729 /* DEMO5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9720BD906800195729 /* DEMO5ViewController.swift */; };
+		C7D67C9C20BD9CF100195729 /* thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7D67C9A20BD9CF100195729 /* thumb.jpg */; };
+		C7D67C9D20BD9CF100195729 /* live.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7D67C9B20BD9CF100195729 /* live.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		C7D67C9320BD904200195729 /* DEMO3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO3ViewController.swift; sourceTree = "<group>"; };
 		C7D67C9520BD905200195729 /* DEMO4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO4ViewController.swift; sourceTree = "<group>"; };
 		C7D67C9720BD906800195729 /* DEMO5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO5ViewController.swift; sourceTree = "<group>"; };
+		C7D67C9A20BD9CF100195729 /* thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb.jpg; sourceTree = "<group>"; };
+		C7D67C9B20BD9CF100195729 /* live.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = live.mp3; sourceTree = "<group>"; };
 		CCCE4FED1A0D87482C173249 /* Pods-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftDemo/Pods-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,7 @@
 		2B0A8AF820BC0A3800FEC7D0 /* swiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C7D67C9920BD9CDA00195729 /* Resource */,
 				2B0A8AF920BC0A3800FEC7D0 /* AppDelegate.swift */,
 				2B0A8AFB20BC0A3900FEC7D0 /* ViewController.swift */,
 				2B0A8AFD20BC0A3900FEC7D0 /* Main.storyboard */,
@@ -93,6 +98,15 @@
 				014B95CC3A42CB45455DEC7E /* Pods-swiftDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7D67C9920BD9CDA00195729 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C7D67C9B20BD9CF100195729 /* live.mp3 */,
+				C7D67C9A20BD9CF100195729 /* thumb.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		D9BA82503540D7B48C3A7C6E /* Frameworks */ = {
@@ -163,6 +177,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D67C9C20BD9CF100195729 /* thumb.jpg in Resources */,
+				C7D67C9D20BD9CF100195729 /* live.mp3 in Resources */,
 				2B0A8B0420BC0A3900FEC7D0 /* LaunchScreen.storyboard in Resources */,
 				2B0A8B0120BC0A3900FEC7D0 /* Assets.xcassets in Resources */,
 				2B0A8AFF20BC0A3900FEC7D0 /* Main.storyboard in Resources */,
