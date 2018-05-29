@@ -10,5 +10,5 @@ target 'swiftDemo' do
   pod 'HandyJSON'
   pod 'Kingfisher'
   pod 'SVProgressHUD'
-  pod 'SnapKit', '~> 3.2.0'
+  pod 'SnapKit'
 end

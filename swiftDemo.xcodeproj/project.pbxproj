@@ -13,6 +13,11 @@
 		2B0A8B0120BC0A3900FEC7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A8B0020BC0A3900FEC7D0 /* Assets.xcassets */; };
 		2B0A8B0420BC0A3900FEC7D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A8B0220BC0A3900FEC7D0 /* LaunchScreen.storyboard */; };
 		815943FB2CA9524CD309DB66 /* Pods_swiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E84B5E769C970CD6C3F6ECD /* Pods_swiftDemo.framework */; };
+		C7D67C9020BD901700195729 /* DEMO1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C8F20BD901700195729 /* DEMO1ViewController.swift */; };
+		C7D67C9220BD903100195729 /* DEMO2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9120BD903100195729 /* DEMO2ViewController.swift */; };
+		C7D67C9420BD904200195729 /* DEMO3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9320BD904200195729 /* DEMO3ViewController.swift */; };
+		C7D67C9620BD905200195729 /* DEMO4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9520BD905200195729 /* DEMO4ViewController.swift */; };
+		C7D67C9820BD906800195729 /* DEMO5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67C9720BD906800195729 /* DEMO5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		2B0A8B0320BC0A3900FEC7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B0A8B0520BC0A3900FEC7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E84B5E769C970CD6C3F6ECD /* Pods_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D67C8F20BD901700195729 /* DEMO1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO1ViewController.swift; sourceTree = "<group>"; };
+		C7D67C9120BD903100195729 /* DEMO2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO2ViewController.swift; sourceTree = "<group>"; };
+		C7D67C9320BD904200195729 /* DEMO3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO3ViewController.swift; sourceTree = "<group>"; };
+		C7D67C9520BD905200195729 /* DEMO4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO4ViewController.swift; sourceTree = "<group>"; };
+		C7D67C9720BD906800195729 /* DEMO5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO5ViewController.swift; sourceTree = "<group>"; };
 		CCCE4FED1A0D87482C173249 /* Pods-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftDemo/Pods-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +77,11 @@
 				2B0A8B0020BC0A3900FEC7D0 /* Assets.xcassets */,
 				2B0A8B0220BC0A3900FEC7D0 /* LaunchScreen.storyboard */,
 				2B0A8B0520BC0A3900FEC7D0 /* Info.plist */,
+				C7D67C8F20BD901700195729 /* DEMO1ViewController.swift */,
+				C7D67C9120BD903100195729 /* DEMO2ViewController.swift */,
+				C7D67C9320BD904200195729 /* DEMO3ViewController.swift */,
+				C7D67C9520BD905200195729 /* DEMO4ViewController.swift */,
+				C7D67C9720BD906800195729 /* DEMO5ViewController.swift */,
 			);
 			path = swiftDemo;
 			sourceTree = "<group>";
@@ -212,7 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D67C9620BD905200195729 /* DEMO4ViewController.swift in Sources */,
 				2B0A8AFC20BC0A3900FEC7D0 /* ViewController.swift in Sources */,
+				C7D67C9020BD901700195729 /* DEMO1ViewController.swift in Sources */,
+				C7D67C9820BD906800195729 /* DEMO5ViewController.swift in Sources */,
+				C7D67C9220BD903100195729 /* DEMO2ViewController.swift in Sources */,
+				C7D67C9420BD904200195729 /* DEMO3ViewController.swift in Sources */,
 				2B0A8AFA20BC0A3800FEC7D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
